@@ -32,5 +32,5 @@ THEN the saved events persist
 I learned more about java script and jquery and how they can work to create a more intuitive site. how to use bootstrap and jquery components. it was also a good challenge for me needing to go through and clean up my code and debug it.
 
 ## deployed page & screenshot
-https://afredknot.github.io/test-your-coding-knowledge/
+https://afredknot.github.io/its-a-calender-eh/
 ![screenshot](./Assets/pictures/screenshot.png)
