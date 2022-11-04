@@ -1,8 +1,5 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
-var timeDisplayEl = $('#currentDay');
 
+var timeDisplayEl = $('#currentDay');
 var rightNow = dayjs().format('HH');
 var saveEl = document.querySelectorAll('.saveBtn');
 var text = document.querySelectorAll('textarea');
@@ -10,7 +7,7 @@ console.log(saveEl);
 var appointments = []
 
 
-
+// started with the time card
 $(function () {
   function displayTime() {
     var rightNow = dayjs().format('MMM DD, YYYY [at] HH:mm:ss a');
@@ -56,7 +53,7 @@ $(function () {
       return;
     }
     
-    // appointment.value = "";
+    // adding the json method to be able to put an array into strings
   function storeAppointment (){
   localStorage.setItem('appointments', JSON.stringify(appointments));
   }
